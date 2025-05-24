@@ -53,3 +53,21 @@ select{
     background-size: 1.5rem;
    
 }
+
+.address .flex{
+    gap: 1.25rem;
+   
+}
+
+.input-wrapper:has([disabled]){
+    opacity: .5;
+}
+
+input {
+    &[disabled]{
+        background-color: var(--text-surface-disabled);
+        border: 1px solid var(--text-stroke-default);
+        color: var(--text-primary);
+        
+    }
+}
