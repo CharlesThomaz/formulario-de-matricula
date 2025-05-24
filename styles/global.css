@@ -27,3 +27,7 @@
     --text-semantic-error:#DC2626;
     
 }
+
+body{
+    overflow: hidden;
+}
