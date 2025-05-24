@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,9 +11,12 @@
     <title>Estrelas do Amanhã</title>
 
     <link rel="stylesheet" href="styles/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
 
     <div class="app">
@@ -25,8 +29,59 @@
                     <span>Voltar</span>
                 </div>
                 <h1>Formulário de matrícula</h1>
-                <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+                <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.
+                </p>
             </div>
+
+            <form enctype="multipart/form-data" action="#" method="POST">
+
+                <fieldset class="child-info">
+                    <legend>
+                        Informações da criança
+                    </legend>
+
+                    <div class="input-wrapper">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" name="nomeCompleto" id="nome" placeholder="Digite o nome completo da criança">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="nascimento">Data de Nascimento</label>
+                        <input type="date" name="dtNasc" id="nascimento"  lang="pt-br">
+                    </div>
+
+                    <div class="select-wrapper">
+                        <label for="gender">Sexo</label>
+                        <select name="gender" id="gender">
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="outro">Prefiro não responder</option>
+                        </select>
+                    </div>
+
+                    <div class="text-area-wapper">
+                        <label for="infoMedica">Informações Médicas</label>
+                        <textarea name="informacoesMedicas" id="infoMedica"
+                        cols="30" rows="10"
+                        placeholder="Digite aqui informações médicas relevantes, como alergias, doenças crônicas ou outras condições de saúde que a escola deve saber."></textarea>
+                        ></textarea>
+                    </div>
+
+                    <div class="droparea-wrapper">    
+                                           
+                        <input type="file" name="certidaoNascimento" id="certidao">
+                        <img src="assets/icones/icons2/cloud-upload.svg" alt="">
+                        <p>Clique aqui para selecionar arquivos</p>
+                        
+                    </div>
+
+
+
+
+                </fieldset>
+            </form>
+
+
         </main>
 
         <aside>
@@ -34,11 +89,12 @@
                 <header>
                     <img src="assets/logo.svg" alt="ícone da escola Estrelas do Amanhã" class="logo">
                     <h2>
-                        Porque cada momento de <span>                       aprendizado</span> conta
-                        
+                        Porque cada momento de <span> aprendizado</span> conta
+
                     </h2>
                     <p>
-                        Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.
+                        Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e
+                        estimulante.
                     </p>
                 </header>
                 <img src="assets/Illustration.svg" alt="Ilustração de uma criança brincando" class="aside-image">
@@ -49,6 +105,7 @@
 
     </div>
 
-    
+
 </body>
+
 </html>
