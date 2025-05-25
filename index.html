@@ -42,12 +42,13 @@
 
                     <div class="input-wrapper">
                         <label for="nome">Nome completo</label>
-                        <input type="text" name="nomeCompleto" id="nome" placeholder="Digite o nome completo da criança">
+                        <input type="text" name="nomeCompleto" id="nome"
+                            placeholder="Digite o nome completo da criança">
                     </div>
 
                     <div class="input-wrapper">
                         <label for="nascimento">Data de Nascimento</label>
-                        <input type="date" name="dtNasc" id="nascimento"  lang="pt-br">
+                        <input type="date" name="dtNasc" id="nascimento" lang="pt-br">
                     </div>
 
                     <div class="select-wrapper">
@@ -61,29 +62,33 @@
 
                     <div class="text-area-wrapper">
                         <label for="infoMedica">Informações Médicas</label>
-                        <textarea       name="informacoesMedicas" id="infoMedica"
-                            cols="30" rows="5"
+                        <textarea name="informacoesMedicas" id="infoMedica" cols="30" rows="5"
                             placeholder="Digite aqui informações médicas relevantes, como alergias, doenças crônicas ou outras condições de saúde que a escola deve saber.">
                         </textarea>
                     </div>
 
-                    <div class="droparea-wrapper">    
-                        <label for="certidao">Certidão de Nascimento</label>   
-                               
-                        <label class="dropzone"     for="certidao">  
+                    <div class="droparea-wrapper">
+                        <label for="certidao">Certidão de Nascimento</label>
+
+                        <label class="dropzone" for="certidao">
                             <input type="file" name="certidaoNascimento" id="certidao" hidden>
-                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M34.9552 18.0221C34.97 18.022 34.985 18.022 35 18.022C39.9706 18.022 44 22.0588 44 27.0386C44 31.6796 40.5 35.5016 36 36M34.9552 18.0221C34.9848 17.6921 35 17.3579 35 17.0202C35 10.9339 30.0752 6 24 6C18.2465 6 13.5247 10.4253 13.0408 16.0638M34.9552 18.0221C34.7506 20.2952 33.8572 22.3692 32.4856 24.033M13.0408 16.0638C7.96796 16.5475 4 20.8278 4 26.0366C4 30.8834 7.43552 34.9264 12 35.8546M13.0408 16.0638C13.3565 16.0337 13.6765 16.0183 14 16.0183C16.2516 16.0183 18.3295 16.7639 20.001 18.022" stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M24 26V42M24 26C22.5996 26 19.9831 29.9886 19 31M24 26C25.4004 26 28.017 29.9886 29 31" stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M34.9552 18.0221C34.97 18.022 34.985 18.022 35 18.022C39.9706 18.022 44 22.0588 44 27.0386C44 31.6796 40.5 35.5016 36 36M34.9552 18.0221C34.9848 17.6921 35 17.3579 35 17.0202C35 10.9339 30.0752 6 24 6C18.2465 6 13.5247 10.4253 13.0408 16.0638M34.9552 18.0221C34.7506 20.2952 33.8572 22.3692 32.4856 24.033M13.0408 16.0638C7.96796 16.5475 4 20.8278 4 26.0366C4 30.8834 7.43552 34.9264 12 35.8546M13.0408 16.0638C13.3565 16.0337 13.6765 16.0183 14 16.0183C16.2516 16.0183 18.3295 16.7639 20.001 18.022"
+                                    stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M24 26V42M24 26C22.5996 26 19.9831 29.9886 19 31M24 26C25.4004 26 28.017 29.9886 29 31"
+                                    stroke="#D6D3D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
 
                             <p>
                                 Clique aqui para selecionar arquivos
                             </p>
                         </label>
-   
-                        
-                        
+
+
+
                     </div>
 
 
@@ -110,8 +115,8 @@
                         <div class="input-wrapper flex-2">
                             <label for="numero">Número</label>
                             <input type="number" name="numero" id="numero" placeholder="Digite o número" disabled>
-                        </div> 
-                        
+                        </div>
+
                     </div>
 
                     <div class="flex">
@@ -121,14 +126,14 @@
                             <input type="text" name="cidade" id="cidade" placeholder="Digite o nome da cidade" disabled>
                         </div>
 
-                        
+
                         <div class="input-wrapper flex-2">
                             <label for="state">Estado</label>
                             <input type="text" name="estado" id="state" placeholder="Digite o nome do estado" disabled>
                         </div>
 
                     </div>
-                   
+
                 </fieldset>
 
 
@@ -137,85 +142,159 @@
 
                     <div class="input-wrapper">
                         <label for="gardian">Nome do responsável</label>
-                        <input type="text" id="gardian" name="nomeResponsavel" placeholder="Digite o nome completo do responsável">
+                        <input type="text" id="gardian" name="nomeResponsavel"
+                            placeholder="Digite o nome completo do responsável">
                         <small>Principal responsável legal e contato de emergência</small>
                     </div>
-                    
+
                     <div class="input-wrapper">
                         <label for="telefone">Telefone</label>
                         <input type="tel" id="telefone" name="telefoneResponsavel" placeholder="(10) 9 8765-4321">
-                        
+
                     </div>
 
                     <div class="input-wrapper">
                         <label for="email">E-mail</label>
-                        <input type="email" id="email" name="emailResponsavel" placeholder="Digite o e-mail do responsável" required>
-                        
-                    
+                        <input type="email" id="email" name="emailResponsavel"
+                            placeholder="Digite o e-mail do responsável" required>
 
-                    <div class="error">
-                        <img src="assets/icones/icons3/alert-circle.svg" alt="icone de erro">
-                        <span>Insira um e-mail válido</span>
-                    </div>
+
+
+                        <div class="error">
+                            <img src="assets/icones/icons3/alert-circle.svg" alt="icone de erro">
+                            <span>Insira um e-mail válido</span>
+                        </div>
                     </div>
 
                 </fieldset>
 
 
-          <fieldset class="enroll-options">
-  <legend>Opções de matrícula</legend>
+                <fieldset class="enroll-options">
+                    <legend>Opções de matrícula</legend>
 
-  <div class="input-wrapper">
-    <label for="turno">Selecione o turno de estudo</label>
+                    <div class="input-wrapper">
 
-    <div class="radio-wrapper">
+                        <label for="turno">Selecione o turno de estudo</label>
 
-      <div class="radio-inner">
-        <input type="radio" name="studyShift" id="morning" value="morning">
-        <label for="morning">
-          <div class="radio-image"></div>
-          <img src="assets/icones/icons1/sun-cloud-02.svg" alt="ícone do sol">
-          Manhã
-        </label>
-      </div>
+                        <div class="radio-wrapper">
 
-      <div class="radio-inner">
-        <input type="radio" name="studyShift" id="evening" value="evening">
-        <label for="evening">
-          <div class="radio-image"></div>
-          <img src="assets/icones/icons1/sun-02.svg" alt="ícone do sol">
-          Tarde
-        </label>
-      </div>
+                            <div class="radio-inner">
+                                <input type="radio" name="studyShift" id="morning" value="morning">
+                                <label for="morning">
+                                    <div class="radio-image"></div>
+                                    <img src="assets/icones/icons1/sun-cloud-02.svg" alt="ícone do sol">
+                                    Manhã
+                                </label>
+                            </div>
+
+                            <div class="radio-inner">
+                                <input type="radio" name="studyShift" id="evening" value="evening">
+                                <label for="evening">
+                                    <div class="radio-image"></div>
+                                    <img src="assets/icones/icons1/sun-02.svg" alt="ícone do sol">
+                                    Tarde
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label>Em qual esporte você gostaria de inscrever seu filho?</label>
+
+                        <div class="radio-wrapper">
+
+                            <div class="radio-inner">
+                                <input type="radio" name="esporte" id="football" />
+                                <label for="football">
+                                    <div class="radio-image"></div>
+                                    <img src="assets/icones/icons1/football.svg" alt="ícone de football" />
+                                    Futebol
+                                </label>
+                            </div>
+
+                            <div class="radio-inner">
+                                <input type="radio" name="esporte" id="basketball" />
+                                <label for="basketball">
+                                    <div class="radio-image"></div>
+                                    <img src="assets/icones/icons1/basketball-02.svg" alt="ícone de basketball" />
+                                    Basquete
+                                </label>
+                            </div>
+
+                            <div class="radio-inner">
+                                <input type="radio" name="esporte" id="swimming" />
+                                <label for="swimming">
+                                    <div class="radio-image"></div>
+                                    <img src="assets/icones/icons1/swimming.svg" alt="ícone de swimming" />
+                                    Natação
+                                </label>
+                            </div>
+
+                            <div class="radio-inner">
+                                <input type="radio" name="esporte" id="yoga" />
+                                <label for="yoga">
+                                    <div class="radio-image"></div>
+                                    <img src="assets/icones/icons1/yoga-02.svg" alt="ícone de yoga" />
+                                    Yoga
+                                </label>
+                            </div>
+
+                            <div class="radio-inner">
+                                <input type="radio" name="esporte" id="volleyball" />
+                                <label for="volleyball">
+                                    <div class="radio-image"></div>
+                                    <img src="assets/icones/icons1/volleyball.svg" alt="ícone de volleyball" />
+                                    Vôlei
+                                </label>
+                            </div>
+
+                            <div class="radio-inner">
+                                <input type="radio" name="esporte" id="boxing" />
+                                <label for="boxing">
+                                    <div class="radio-image"></div>
+                                    <img src="assets/icones/icons1/boxing-glove-01.svg" alt="ícone de boxing" />
+                                    Boxe
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
 
     </div>
-  </div>
-</fieldset>
 
 
 
-            </form>
+
+    </fieldset>
 
 
-        </main>
 
-        <aside>
-            <div class="aside-container">
-                <header>
-                    <img src="assets/logo.svg" alt="ícone da escola Estrelas do Amanhã" class="logo">
-                    <h2>
-                        Porque cada momento de <span> aprendizado</span> conta
+    </form>
 
-                    </h2>
-                    <p>
-                        Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e
-                        estimulante.
-                    </p>
-                </header>
-                <img src="assets/Illustration.svg" alt="Ilustração de uma criança brincando" class="aside-image">
 
-            </div>
-        </aside>
+    </main>
+
+    <aside>
+        <div class="aside-container">
+            <header>
+                <img src="assets/logo.svg" alt="ícone da escola Estrelas do Amanhã" class="logo">
+                <h2>
+                    Porque cada momento de <span> aprendizado</span> conta
+
+                </h2>
+                <p>
+                    Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e
+                    estimulante.
+                </p>
+            </header>
+            <img src="assets/Illustration.svg" alt="Ilustração de uma criança brincando" class="aside-image">
+
+        </div>
+    </aside>
 
 
     </div>
