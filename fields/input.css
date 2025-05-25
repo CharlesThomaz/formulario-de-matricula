@@ -4,7 +4,10 @@ select {
     appearance: none;
     width: 100%;
     border-radius: .5rem;
-    border: 1px solid var(--text-stroke-default);
+
+    outline: px solid var(--text-stroke-default);
+
+    border: 2px solid transparent;
     padding: .75rem 1rem;
     font: var(--text);
 }
@@ -15,7 +18,7 @@ select:focus,
 input[type="date"]:focus-within
 {
     outline: .25rem solid var(--text-surface-secondary);
-    border: .125rem solid var(--text-stroke-);
+    border-color:  var(--text-stroke-);
     outline-offset: .1px;
 }
 
