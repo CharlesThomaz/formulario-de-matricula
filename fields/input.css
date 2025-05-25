@@ -15,7 +15,7 @@ select:focus,
 input[type="date"]:focus-within
 {
     outline: .25rem solid var(--text-surface-secondary);
-    border: .125rem solid var(--text-stroke-highlight);
+    border: .125rem solid var(--text-stroke-);
     outline-offset: .1px;
 }
 

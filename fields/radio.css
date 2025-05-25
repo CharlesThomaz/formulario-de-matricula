@@ -27,12 +27,12 @@ label + .radio-wrapper {
 
 
   &:hover, &:focus-within {
-    border: 1px solid var(--text-stroke-highlight);
+    border: 1px solid var(--text-stroke-);
     & .radio-image{
         background-image: url(/assets/icones/icons3/radio-hover.svg);
     }
     &:has(:checked){
-        border: 2px solid var(--text-stroke-highlight);
+        border: 2px solid var(--text-stroke-);
 
     }
 
@@ -41,7 +41,7 @@ label + .radio-wrapper {
 
 /* opcional: efeito de "selecionado" */
 .radio-inner input:checked + label .radio-image {
-border: 2px solid var(--text-stroke-highlight);
+border: 2px solid var(--text-stroke-);
 
   background-image: url('/assets/icones/icons3/radio-checked.svg');
 }
